@@ -5,7 +5,7 @@ Welcome to the "Data Science for Cyber Security" GitHub repository!
 
 This repository currently contains two Python Jupyter notebook scripts:<br>
 
-1 - <a href="https://github.com/etherpixie/data_science_for_cyber_security/blob/main/Monte%20Carlo%20for%20Cyber-Threats.ipynb">Monte Carlo for Cyber-Threats.ipynb</a> uses a Monte Carlo simulation to calculate the total cyber-value-at-risk for a portfolio of cyber threats. 
+1 - <a href="https://github.com/etherpixie/data_science_for_cyber_security/blob/main/Monte%20Carlo%20for%20Cyber-Threats.ipynb">Monte Carlo for Cyber-Threats.ipynb</a> uses a Monte Carlo simulation to calculate the total cyber-value-at-risk for a portfolio of cyber threats. <br>
 2 - <a href="https://github.com/etherpixie/data_science_for_cyber_security/blob/main/I%20-%20Credit%20card%20fraud%20detection%20with%20Random%20Forest.ipynb">I - Credit card fraud detection with Random Forest.ipynb</a> addresses an imbalanced dataset and uses a random forest classifier in credit card fraud detection.
 
 <H2>MONTE CARLO FOR CYBER RISK</H2>
