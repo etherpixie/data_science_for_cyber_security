@@ -3,7 +3,13 @@
 
 Welcome to the "Data Science for Cyber Security" GitHub repository!
 
-This repository currently contains a Python Jupyter notebook script that uses a Monte Carlo simulation to calculate the total cyber-value-at-risk for a portfolio of cyber threats. The script is implemented using the Pandas library for data manipulation, the NumPy library for numerical operations, the Matplotlib library for visualization and the random library for generating random numbers.
+This repository currently contains two Python Jupyter notebook scripts:<br>
+
+1 - <a href="https://github.com/etherpixie/data_science_for_cyber_security/blob/main/Monte%20Carlo%20for%20Cyber-Threats.ipynb">Monte Carlo for Cyber-Threats.ipynb</a> uses a Monte Carlo simulation to calculate the total cyber-value-at-risk for a portfolio of cyber threats. 
+2 - <a href="https://github.com/etherpixie/data_science_for_cyber_security/blob/main/I%20-%20Credit%20card%20fraud%20detection%20with%20Random%20Forest.ipynb">I - Credit card fraud detection with Random Forest.ipynb</a> addresses an imbalanced dataset and uses a random forest classifier in credit card fraud detection.
+
+<H2>MONTE CARLO FOR CYBER RISK</H2>
+The script is implemented using the Pandas library for data manipulation, the NumPy library for numerical operations, the Matplotlib library for visualization and the random library for generating random numbers.
 
 The script first defines a Pandas DataFrame with the cyber events, probability of occurrence and the impact in dollars in a upper and lower range. It then defines four functions:
 
@@ -17,6 +23,17 @@ The script first defines a Pandas DataFrame with the cyber events, probability o
 
 The script then uses the monte_carlo_simulation function to generate a set of losses and plots these losses using the Matplotlib library. The script also generates a Loss Exceedance Curve which is a powerful tool for visualizing and understanding the risk of the cyber portfolio.
 
-This repository is intended to be a resource for anyone interested in understanding the basics of Monte Carlo simulations and how they can be applied to cyber risk analysis. 
+This script is intended to be a resource for anyone interested in understanding the basics of Monte Carlo simulations and how they can be applied to cyber risk analysis. 
 
-I am passionate about translating complex topics like Monte Carlo into approachable language and I hope this repository helps make this topic more accessible to a wider audience.
+<H2>CREDIT CARD FRAUD WITH RANDOM FOREST</H2>
+The script is a demonstration of using a random forest classifier to detect credit card fraud, and comparing the performance of the model when trained on imbalanced data versus oversampled data.
+
+The evaluation metrics used are F1 score, recall, accuracy, and precision, which are calculated using the functions from the scikit-learn library as previously explained.
+
+The original data used for training the model has an imbalanced distribution, where the majority of the transactions are non-fraudulent. This can lead to a biased model, as it may have a high accuracy in predicting the majority class, but a low recall in detecting fraudulent transactions.
+
+To tackle the issue of imbalanced data, the data is oversampled using the Synthetic Minority Over-sampling Technique (SMOTE) method. SMOTE generates synthetic samples of the minority class to balance the class distribution.
+
+The code then trains the random forest classifier on both the original imbalanced data and the oversampled data, and the results are compared. The results show that the use of oversampled data leads to an improvement in the recall of fraudulent transactions, which is a crucial metric in credit card fraud detection.
+
+I am passionate about translating complex topics into approachable language and I hope this repository helps make this topic more accessible to a wider audience.
