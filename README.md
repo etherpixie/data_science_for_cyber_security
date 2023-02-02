@@ -28,7 +28,7 @@ This script is intended to be a resource for anyone interested in understanding 
 <H2>CREDIT CARD FRAUD WITH RANDOM FOREST</H2>
 The script is a demonstration of using a random forest classifier to detect credit card fraud, and comparing the performance of the model when trained on imbalanced data versus oversampled data.
 
-The evaluation metrics used are F1 score, recall, accuracy, and precision, which are calculated using the functions from the scikit-learn library as previously explained.
+The evaluation metrics used are F1 score, recall, accuracy, and precision, which are calculated using the functions from the scikit-learn library.
 
 The original data used for training the model has an imbalanced distribution, where the majority of the transactions are non-fraudulent. This can lead to a biased model, as it may have a high accuracy in predicting the majority class, but a low recall in detecting fraudulent transactions.
 
